@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+.container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #031634;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* IMC FORM*/
+#calc-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-control {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 1rem;
+ }
+
+ .form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #ccc
+ }
+
+ .form-control input {
+  padding: 1rem 0.5rem
+  }
+
+ .action-control {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  }
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #f44236;
+  border: none;
+  opacity: 0.9;
+  flex: 1;
+  border-radius: 5px;
+  }
+
+  button:hover {
+    opacity: 1;
+  }
+
+  #clear-btn {
+    background-color: rgb(88, 88, 88);
+  }
+
+  /* table */
+
+  #result-container {
+    text-align: center;
+  }
+
+    #imc-number {
+      font-size: 2.5rem;
+      margin-bottom: 0.6rem;
+  }
+
+    #imc-info {
+      font-size: 2.5rem;
+      color: #ccc;
+  }
+
+  #result-container h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+  }
+
+  #result-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #imc-table {
+    margin: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .table-header {
+    font-weight: bold;
+    color: #ccc;
+  }
+  .table-header h4,
+  .table-data p {
+  flex: 1;
+  }
+
+  .table-header h4:nth-child(3),
+  .table-data p:nth-child(3) {
+    max-width: 80px;
+  }
+
+  #back-btn{
+    align-items: center;
+  }
+
+   .good {
+    color: #12db34;
+  }
+
+  .low {
+    color: #dbce12;
+  }
+  
+  .medium {
+    color: #db6212;
+  }
+  
+  .high {
+    color: #db1912;
+  }
